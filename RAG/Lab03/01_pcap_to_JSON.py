@@ -2,7 +2,7 @@
 import os, json, subprocess, sys
 
 # --- Step 1: Define paths ---
-pcap_path = sys.argv[1] if len(sys.argv) > 1 else "./PCAPs/capture.pcap"
+pcap_path = "capture.pcap"
 json_path = "capture.json"
 
 # --- Step 2: Resolve absolute paths ---

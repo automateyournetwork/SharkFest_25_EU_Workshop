@@ -66,3 +66,6 @@ Some labs will be streamlit apps - run them with streamlit run app.py
 ## MCP Lab Instructions -
 
 Change into the Lab01, Lab02 etc directories and run the respective python files. First run the server to start it up, stop the server, then run the client to connect to the server and execute commands.
+
+## MacOS needs tshark
+brew install --cask wireshark
